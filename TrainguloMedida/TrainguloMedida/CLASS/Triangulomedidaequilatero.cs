@@ -36,43 +36,43 @@ namespace TrainguloMedida.CLASS
                 Console.WriteLine($" El triangulo no es equilatero");
                 if (num1 == num2 && (num2 < num3))
                 {
-                    Console.WriteLine($" El lado mayor es" + num3);
+                    Console.WriteLine($" El lado mayor es " + num3);
                 }
                 else
                 {
                     if (num1 < num2 && (num2 < num3))
                     {
-                        Console.WriteLine($" El lado mayor es" + num3);
+                        Console.WriteLine($" El lado mayor es " + num3);
                     }
                     else
                     {
                         if (num1 > num2 && (num1 < num3))
                         {
-                            Console.WriteLine($" El lado mayor es" + num3);
+                            Console.WriteLine($" El lado mayor es " + num3);
                         }
                         else
                         {
                             if (num2 > num3 && (num2 < num1))
                             {
-                                Console.WriteLine($" El lado mayor es" + num1);
+                                Console.WriteLine($" El lado mayor es " + num1);
                             }
                             else
                             {
                                 if (num2 < num3 && (num3 < num1))
                                 {
-                                    Console.WriteLine($" El lado mayor es" + num1);
+                                    Console.WriteLine($" El lado mayor es " + num1);
                                 }
                                 else
                                 {
                                     if (num1 < num3 && (num3 < num2))
                                     {
-                                        Console.WriteLine($" El lado mayor es" + num2);
+                                        Console.WriteLine($" El lado mayor es " + num2);
                                     }
                                     else
                                     {
                                         if (num1 > num3 && (num3 < num2))
                                         {
-                                            Console.WriteLine($" El lado mayor es" + num2);
+                                            Console.WriteLine($" El lado mayor es " + num2);
                                         }
                                     }
                                 }
