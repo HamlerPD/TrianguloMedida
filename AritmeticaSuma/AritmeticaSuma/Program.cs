@@ -1,7 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AritmeticaSuma;
 
-Console.WriteLine("Hello, World!");
+
+Suma suma = new Suma();
+
+
+
+
+Console.WriteLine(" LA suma es igua a" + new Suma);
 
 
 

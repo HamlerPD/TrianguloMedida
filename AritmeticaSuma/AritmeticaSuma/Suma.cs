@@ -9,7 +9,7 @@ namespace AritmeticaSuma
     //Suma de 3 numeros
     public class Suma
     {
-        public static void Main(string[] args) 
+        public static void Main() 
         {
             int num1 = 0;
             int num2 = 0;
@@ -22,6 +22,8 @@ namespace AritmeticaSuma
             num2 = Convert.ToInt32(Console.ReadLine());
 
             suma = num1 + num2;
+
+            Console.WriteLine(" LA suma es igua a" + suma);
 
         }
 
