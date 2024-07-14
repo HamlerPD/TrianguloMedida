@@ -20,10 +20,16 @@ else if (((daysUntilExpiration < 2)))
     Console.WriteLine(" Your subscription expires within a day! ");
     Console.WriteLine("Renew now and save " + discountPercentage + "Percent");
 }
-else if ((((daysUntilExpiration < 1))))
+else if ((((daysUntilExpiration == 0))))
 {
     Console.WriteLine(" Your subscription has expired! ");
 }
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%.");
+}
+
+
 
 
 
