@@ -32,8 +32,12 @@ namespace Matrices
                 }
             }
 
-         
 
+            string firstName;
+
+            Console.WriteLine("Escriba un nombre");
+            string? v = Convert.ToString(Console.ReadLine());
+            firstName = v;
 
         }
     } 
