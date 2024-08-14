@@ -16,10 +16,10 @@ namespace Matrices
 
             FraudulentOrdersId[0] = "B123";
             FraudulentOrdersId[1] = "C234";
-            FraudulentOrdersId[2] = "A345";
-            FraudulentOrdersId[3] = "C15";
+            FraudulentOrdersId[2] = "B345";
+            FraudulentOrdersId[3] = "C150";
             FraudulentOrdersId[4] = "B177";
-            FraudulentOrdersId[5] = "G3003";
+            FraudulentOrdersId[5] = "G303";
             FraudulentOrdersId[6] = "C235";
             FraudulentOrdersId[7] = "B179";
 
@@ -33,11 +33,6 @@ namespace Matrices
             }
 
 
-            string firstName;
-
-            Console.WriteLine("Escriba un nombre");
-            string? v = Convert.ToString(Console.ReadLine());
-            firstName = v;
 
         }
     } 
